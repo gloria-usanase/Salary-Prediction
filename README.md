@@ -68,7 +68,7 @@ Miles from metropolis: Salary decreases with distance from major cities. <br />
 ![Plot](./img/milesfrommetropolis.png) <br />
 
 Heatmap:<br />
-![Heatmap](./img/heatmap.png) <br />
+![Heatmap](./img/featureimportance.png) <br />
 
 2. Model Building and Evaluation:<br />
 Created 4 different models then chose the model with the lowest MSE.<br />
@@ -79,4 +79,4 @@ Created 4 different models then chose the model with the lowest MSE.<br />
 <br />
 <br />
 As seen on the image below, the job type janitor has the highest importance meaning lowest salary.<br />
-![FeatureImportance](./img/featureimportance.png) <br />
+![Heatmap](./img/featureimportance.png) <br />
