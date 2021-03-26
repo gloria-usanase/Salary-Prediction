@@ -79,5 +79,8 @@ Third model: Random Forest Regressor => MSE:367.74 <br />
 Fourth model: Gradient Boosting Regressor => MSE:357.23 <br />
 <br />
 <br />
+Trained and tested the model using Gradient Boosting Regressor.
+<br />
+<br />
 As seen on the image below, the job type janitor has the highest importance meaning lowest salary:<br />
 ![Importance](./img/featureimportance.png) <br />
