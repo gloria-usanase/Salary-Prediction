@@ -44,7 +44,7 @@ milesFromMetropolis: miles away the job is from a major city
 
 ## Methodology
 
-1. Exploratory Data Analysis:<br />
+1.Exploratory Data Analysis:<br />
 Summarized data and created plots for each category as seen in the diagrams below:<br />
 Data Summary:<br />
 ![Plot](./img/summary.png) <br />
@@ -70,13 +70,14 @@ Miles from metropolis: Salary decreases with distance from major cities. <br />
 Heatmap:<br />
 ![Heatmap](./img/featureimportance.png) <br />
 
-2. Model Building and Evaluation:<br />
+2.Model Building and Evaluation:<br />
 Created 4 different models then chose the model with the lowest MSE.<br />
-- Linear Regression => MSE:384.46 <br />
-- Pipeline => MSE:384.46 <br />
-- Random Forest Regressor => MSE:367.74 <br />
-- Gradient Boosting Regressor => MSE:357.23 <br />
+
+First model: Linear Regression => MSE:384.46 <br />
+Second model: Pipeline => MSE:384.46 <br />
+Third model: Random Forest Regressor => MSE:367.74 <br />
+Fourth model: Gradient Boosting Regressor => MSE:357.23 <br />
 <br />
 <br />
-As seen on the image below, the job type janitor has the highest importance meaning lowest salary.<br />
-![Heatmap](./img/featureimportance.png) <br />
+As seen on the image below, the job type janitor has the highest importance meaning lowest salary:<br />
+![Importance](./img/featureimportance.png) <br />
