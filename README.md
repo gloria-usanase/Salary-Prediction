@@ -19,56 +19,64 @@ Python
 
 The dataset used has the following columns:
 <br>
-*jobId:* Unique identifier for each employee 
 <br>
-*salary:* Annual salary 
+jobId: Unique identifier for each employee 
 <br>
-*companyId:* Identifier for each company 
+salary: Annual salary 
 <br>
-*jobType:* Position held within the company (CEO, CFO, CTO, Vice President, Manager, Janitor, Senior, or Junior) 
+companyId: Identifier for each company 
 <br>
-*degree:* Doctoral, Masters, Bachelors, High School, or None
+jobType: Position held within the company (CEO, CFO, CTO, Vice President, Manager, Janitor, Senior, or Junior) 
 <br>
-*major:* field of study 
+degree: Doctoral, Masters, Bachelors, High School, or None
 <br>
-*industry:* field of work 
+major: field of study 
 <br>
-*yearsExperience:* how many years of work experience 
+industry: field of work 
 <br>
-*milesFromMetropolis:* miles away the job is from a major city
-![Dataview1](./img/sampledata1.png) <br />
+yearsExperience: how many years of work experience 
+<br>
+milesFromMetropolis: miles away the job is from a major city
+<br />
+<br>
+![Dataview1](./img/sampledata1.png) <br /><br>
 ![Dataview2](./img/sampledata2.png)
 
 ## Methodology
 
-1. _Exploratory Data Analysis:<br />
+1. Exploratory Data Analysis:<br />
 Summarized data and created plots for each category as seen in the diagrams below:<br />
 Data Summary:<br />
-![Histogram](./img/summary.png) <br />
+![Plot](./img/summary.png) <br />
 
-Job Type:<br />
-![Histogram](./img/jobtype.png) <br />
+Job Type: There is a clear positive correlation between job type and salary. <br />
+![Plot](./img/jobtype.png) <br />
 
-Degree:<br />
-![Histogram](./img/degree.png) <br />
+Degree: People with higher degrees have higher salaries. <br />
+![Plot](./img/degree.png) <br />
 
-Major:<br />
-![Histogram](./img/major.png) <br />
+Major: Engineering major have higher salaries. <br />
+![Plot](./img/major.png) <br />
 
-Industry:<br />
-![Histogram](./img/industry.png) <br />
+Industry: Oil and Finance industries have the same salaries and pay better compared to other industries. <br />
+![Plot](./img/industry.png) <br />
 
-Years of experience:<br />
-![Histogram](./img/yearsexperience.png) <br />
+Years of experience:There is a clear correlation between salary and years of experience. <br />
+![Plot](./img/yearsexperience.png) <br />
+
+Miles from metropolis: Salary decreases with distance from major cities. <br />
+![Plot](./img/milesfrommetropolis.png) <br />
 
 Heatmap:<br />
-![Histogram](./img/heatmap.png) <br />
+![Heatmap](./img/heatmap.png) <br />
 
-2. _Model Building and Evaluation:<br />
-Created 4 different models then chose the model with the lowest MSE.
+2. Model Building and Evaluation:<br />
+Created 4 different models then chose the model with the lowest MSE.<br />
 - Linear Regression => MSE:384.46 <br />
 - Pipeline => MSE:384.46 <br />
 - Random Forest Regressor => MSE:367.74 <br />
 - Gradient Boosting Regressor => MSE:357.23 <br />
+<br />
+<br />
    As seen on the image below, the job type janitor has the highest importance meaning lowest salary.<br />
    ![FeatureImportance](./img/featureimportance.png) 
