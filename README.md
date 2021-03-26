@@ -68,7 +68,7 @@ Miles from metropolis: Salary decreases with distance from major cities. <br />
 ![Plot](./img/milesfrommetropolis.png) <br />
 
 Heatmap:<br />
-![Heatmap](./img/featureimportance.png) <br />
+![Heatmap](./img/heatmap.png) <br />
 
 2.Model Building and Evaluation:<br />
 Created 4 different models then chose the model with the lowest MSE.<br />
