@@ -70,5 +70,5 @@ Created 4 different models then chose the model with the lowest MSE.
 - Pipeline => MSE:384.46 <br />
 - Random Forest Regressor => MSE:367.74 <br />
 - Gradient Boosting Regressor => MSE:357.23 <br />
-   As seen on the image below, the job type janitor has the highest importance meaning lowest salary.
+   As seen on the image below, the job type janitor has the highest importance meaning lowest salary.<br />
    ![FeatureImportance](./img/featureimportance.png) 
