@@ -9,7 +9,7 @@
 
 ## Purpose
 
-This project is examine a set of job postings with salaries and then predict salaries for a new set of job postings.
+The purpose of this project is to examine a set of job postings with salaries and then predict salaries for a new set of job postings.
 
 ## Technologies
 
